@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* position: fixed; */
+}
+body{
+    font-family: roboto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nova Round', cursive;
+}
+.wrap{
+    background:rgba(0,0,0,0.5) url(../images/the-displaced-church-background.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* min-height: 100vh; */
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    padding-bottom: 100px;
+}
+.wave{
+    position:absolute;
+    width: 100%;
+    bottom:-140px;
+    color: #fff;
+    opacity:1; 
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+}
+header .logo{
+    font-size: 28px;
+    font-weight: 700;
+    color:#fff;
+    float: left;
+}
+header .menu{
+    float: right;
+    margin-top: 5px;
+ }
+ header ul li{
+     display: inline-block;
+ }
+ header ul li a {
+     text-decoration: none;
+     font-size: 16px;
+     color:#fff;
+     margin: 0 25px;
+     letter-spacing:1px;
+ }
+ header ul li a:hover{
+    text-underline-position: below;
+    color:#fff;
+    margin-top: 10px;
+    /* border-bottom: 1px solid #000099; */
+    text-decoration: underline solid 4px darkmagenta;
+ }
+ .content{
+    width:100%;
+    padding: 80px 80px 0;
+    color:#fff;
+ }
+ .content h1{
+     font-size: 48px;
+ }
+ .content p{
+     font-size: 20px;
+     padding:25px 0;
+     font-weight: 300;
+ }
+ .content .btn-group{
+     margin-top: 45px;
+    
+     /* position: fixed; */
+ }
+ .content a{
+     display: inline-block;
+     padding: 15px 45px;
+     text-decoration: none;
+     color:#fff;
+     border-radius: 50px;
+     background-color: darkmagenta;
+     
+     /* background-color: #ffc107; */
+ }
+ .content a:hover{
+    background-color:orchid;
+    cursor: pointer;
+   
+ }
+ /* .content a .color1{
+
+ } */
+ .color2 {
+    margin-left: 20px;
+ }
+ #topRight{
+    display: none;
+     height: 100px;
+     width: 200px;
+     float: right;
+     position: fixed;
+    background-color: tomato;
+     position: fixed;
+    margin-left: 50px;
+    /* padding-bottom: 1000px; */
+     /* display: inline-block; */
+ }
+ #myDiagramDiv{
+    background-color:#fff; 
+    display:none; 
+    float: left;
+    position:relative;
+    margin-top:10px; 
+    margin-left: 5px;
+    margin-right: 2px; 
+    border: solid 3px blueviolet;
+    width: 100%; 
+    height:80vh;
+ }
+ #tabilao, #titre{
+     display: none;
+ }
+ 
+ div#topRightt {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #546795;
+    padding: 15px;
+    display: none;
+    border-radius: 5px;
+}
+a.arrow {
+    background-color: transparent;
+    color: darkgoldenrod;
+    font-size: larger;
+}
+a.arrow:hover{
+    background-color: transparent;
+}
